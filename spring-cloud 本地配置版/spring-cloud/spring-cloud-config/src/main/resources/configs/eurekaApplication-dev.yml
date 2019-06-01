@@ -1,0 +1,44 @@
+#服务名称
+spring:
+  application:
+    name: SPRING-CLOUD-EUREKA
+  zipkin:
+    # zipkin 监控地址
+    base-url: http://localhost:8084
+  boot:
+    admin:
+      client:
+        # spring-clouda-dmin 监控地址
+        url: http://localhost:8087
+#服务端口
+server:
+  port: 8081
+
+#eureka.client.registerWithEureka:false
+#eureka.client.fetchRegistry:false
+#表明是eureka服务端
+#eureka.client.serviceUrl.defaultZone 网关注册地址
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      #eureka注册地址
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+  server:
+    # eureka 解决eureka 不清理下线服务问题
+    # 关闭自我保护
+    enableSelfPreservation: false
+    # 清理间隔（单位毫秒）
+    eviction-interval-timer-in-ms: 3000
+#监控检查
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: health,info

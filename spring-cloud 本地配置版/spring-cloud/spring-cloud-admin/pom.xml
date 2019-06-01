@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.fjhckj</groupId>
+        <artifactId>spring-cloud-dependencies</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath>../spring-cloud-dependencies/pom.xml</relativePath>
+    </parent>
+
+    <artifactId>spring-cloud-admin</artifactId>
+    <packaging>jar</packaging>
+
+    <name>spring-cloud-admin</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <!--spring boot admin begin-->
+        <dependency>
+            <groupId>org.jolokia</groupId>
+            <artifactId>jolokia-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>de.codecentric</groupId>
+            <artifactId>spring-boot-admin-starter-server</artifactId>
+            <version>${spring-cloud-admin.version}</version>
+        </dependency>
+        <!--spring boot admin end -->
+
+        <dependency>
+            <groupId>com.fjhckj</groupId>
+            <artifactId>spring-cloud-base</artifactId>
+            <version>${my.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>de.codecentric</groupId>
+                    <artifactId>spring-boot-admin-starter-client</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

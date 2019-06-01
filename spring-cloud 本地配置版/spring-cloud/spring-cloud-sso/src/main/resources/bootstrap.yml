@@ -1,0 +1,22 @@
+spring:
+  cloud:
+    config:
+      # config 服务端地址
+      uri: http://localhost:8888
+      # 配置文件名
+      name: ssoApplication
+      # 分支名
+      label: master
+      # 版本
+      profile: dev
+      # 获取不到config配置使用下面定义的方案重试
+      fail-fast: true
+      retry:
+        # 重试获取间隔
+        initial-interval: 10000
+        # 最大重试次数
+        max-attempts: 6
+        # 重试最大重试间隔
+        max-interval: 30000
+        # 每次重试时长倍数
+        multiplier: 1.1

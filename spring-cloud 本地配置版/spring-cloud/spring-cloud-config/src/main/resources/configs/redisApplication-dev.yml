@@ -1,0 +1,67 @@
+spring:
+  application:
+    name: spring-cloud-redis
+  zipkin:
+    # zipkin 监控地址
+    base-url: http://localhost:8084
+  boot:
+    admin:
+      client:
+        # spring-clouda-dmin 监控地址
+        url: http://localhost:8087
+
+  #redis配置
+  redis:
+    host: localhost
+    port: 6379
+    lettuce:
+      pool:
+        max-active: 8
+        max-idle: 8
+        max-wait: -1ms
+        min-idle: 0
+
+#redis配置sentinel 集群配置
+#  redis:
+#    lettuce:
+#      pool:
+#        #最大活动链接
+#        max-active: 8
+#        #最大空闲链接
+#        max-idle: 8
+#        #最大等待时间
+#        max-wait: -1ms
+#        #最小空闲链接
+#        min-idle: 0
+#    sentinel:
+#      #sentinel 集群名称
+#      master: mymaster
+#      #sentinel 集群地址
+#      nodes: 127.0.0.1:26379, 127.0.0.1:26380, 127.0.0.1:26381
+
+
+
+
+
+#端口
+server:
+  port: 8088
+
+eureka:
+  instance:
+    # 注入自身ip到eureka
+    prefer-ip-address: true
+    # 自定义eureka的服务地址显示方式
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8081/eureka/
+#监控检查
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: health,info

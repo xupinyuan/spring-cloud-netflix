@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-admin" />
+        <module name="spring-cloud-base" />
+        <module name="spring-cloud-common-service" />
+        <module name="spring-cloud-config" />
+        <module name="spring-cloud-eureka" />
+        <module name="spring-cloud-feign" />
+        <module name="spring-cloud-gateway" />
+        <module name="spring-cloud-redis" />
+        <module name="spring-cloud-service" />
+        <module name="spring-cloud-sso" />
+        <module name="spring-cloud-zipkin" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-cloud" target="1.5" />
+      <module name="spring-cloud-admin" target="1.8" />
+      <module name="spring-cloud-base" target="1.8" />
+      <module name="spring-cloud-common" target="1.8" />
+      <module name="spring-cloud-common-service" target="1.8" />
+      <module name="spring-cloud-config" target="1.8" />
+      <module name="spring-cloud-dependencies" target="1.8" />
+      <module name="spring-cloud-eureka" target="1.8" />
+      <module name="spring-cloud-feign" target="1.8" />
+      <module name="spring-cloud-gateway" target="1.8" />
+      <module name="spring-cloud-redis" target="1.8" />
+      <module name="spring-cloud-service" target="1.8" />
+      <module name="spring-cloud-sso" target="1.8" />
+      <module name="spring-cloud-sson" target="1.8" />
+      <module name="spring-cloud-zipkin" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

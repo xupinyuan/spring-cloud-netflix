@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: SPRING-CLOUD-ZIPKIN
+  boot:
+    admin:
+      client:
+        # spring-clouda-dmin 监控地址
+        url: http://localhost:8087
+server:
+  port: 8084
+
+eureka:
+  instance:
+    # 注入自身ip到eureka
+    prefer-ip-address: true
+    # 自定义eureka的服务地址显示方式
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8081/eureka/
+#监控检查
+management:
+  metrics:
+    web:
+      server:
+        auto-time-requests: false
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: health,info

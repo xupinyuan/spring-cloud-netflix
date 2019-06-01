@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fjhckj.springcloudsso.dao.SysUserMapper">
+  <resultMap id="BaseResultMap" type="com.fjhckj.springcloudsso.entity.SysUser">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="VARCHAR" property="id" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+  </resultMap>
+
+  <select id="selectOne1" resultType="com.fjhckj.springcloudsso.entity.SysUser">
+     select id as id,user_name as userName from sys_user
+  </select>
+</mapper>

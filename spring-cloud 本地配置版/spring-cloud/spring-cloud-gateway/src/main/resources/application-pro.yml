@@ -1,0 +1,65 @@
+spring:
+  application:
+    #服务名称
+    name: SPRING-CLOUD-GATEWAY
+  zipkin:
+    # zipkin 监控地址
+    base-url: http://spring-cloud-zipkin:8084
+  boot:
+    admin:
+      client:
+        # spring-clouda-dmin 监控地址
+        url: http://spring-cloud-admin:8087
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          #开启支持eureka以服务名形式调用
+          enabled: true
+      routes:
+      # 自定义服务名称:ps:特殊名称拥有特殊作用如after_route、before_route、between_route
+      - id: SPRING-CLOUD-FEIGN
+        #lb:以LoadBalancerClient形式调用请求 SPRING-CLOUD-FEIGN eureka上注册的服务名
+        uri: lb://SPRING-CLOUD-FEIGN
+        predicates:
+        #匹配get post 请求
+        - Method=GET,POST
+
+      - id: SPRING-CLOUD-SERVICE
+        uri: lb://SPRING-CLOUD-SERVICE
+        predicates:
+        - Method=GET,POST
+      #全局熔断服务为响应或响应超时触发熔断
+      default-filters:
+      - name: Hystrix
+        args:
+          name: fallbackcmd
+          fallbackUri: forward:/defaultfallback
+
+
+# hystrix 信号量隔离，3秒后自动超时
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          strategy: SEMAPHORE
+          thread:
+            timeoutInMilliseconds: 3000
+  shareSecurityContext: true
+
+
+
+server:
+  port: 8085
+
+eureka:
+  instance:
+    # 注入自身ip到eureka
+    prefer-ip-address: true
+    # 自定义eureka的服务地址显示方式
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+  client:
+    serviceUrl:
+      defaultZone: http://spring-cloud-eureka:8081/eureka/  # eureka 服务注册地址
+

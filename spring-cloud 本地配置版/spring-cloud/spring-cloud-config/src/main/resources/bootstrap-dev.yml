@@ -1,0 +1,52 @@
+spring:
+  application:
+    #服务名
+    name: SPRING-CLOUD-CONFIG
+  #使用本地配置文件打开注释
+  profiles:
+    active: native
+
+  zipkin:
+    # zipkin 监控地址
+    base-url: http://localhost:8084
+
+  boot:
+    admin:
+      client:
+        # spring-clouda-dmin 监控地址
+        url: http://localhost:8087
+
+  cloud:
+    config:
+      #仓库分支
+      label: master
+      server:
+        #本地配置文件路径
+        native:
+          searchLocations: classpath:/configs/
+        git:
+          # git 地址
+          uri: https://gitee.com/xupinyuan/cloud-config.git
+          # 文件夹
+          search-paths: config-repo
+          # git 账户
+          username: 674713418@qq.com
+          # git 密码
+          password: 4564855123.
+#          # 云配置拉取的缓存路径
+#          basedir: ./temp
+
+
+
+server:
+  port: 8888
+
+eureka:
+  instance:
+    # 注入自身ip到eureka
+    prefer-ip-address: true
+    # 自定义eureka的服务地址显示方式
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8081/eureka/
