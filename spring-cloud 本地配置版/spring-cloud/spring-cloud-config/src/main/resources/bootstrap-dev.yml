@@ -26,13 +26,13 @@ spring:
           searchLocations: classpath:/configs/
         git:
           # git 地址
-          uri: https://gitee.com/xupinyuan/cloud-config.git
+          uri: https://github.com/xupinyuan/cloud-config.git
           # 文件夹
           search-paths: config-repo
           # git 账户
-          username: 674713418@qq.com
+          username: xupinyuan
           # git 密码
-          password: 4564855123.
+          password: xpy09250852.
 #          # 云配置拉取的缓存路径
 #          basedir: ./temp
 
