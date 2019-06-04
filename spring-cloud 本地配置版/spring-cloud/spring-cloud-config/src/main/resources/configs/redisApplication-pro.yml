@@ -1,6 +1,6 @@
 spring:
   application:
-    name: spring-cloud-redis
+    name: SPRING-CLOUD-REDIS
   zipkin:
     # zipkin 监控地址
     base-url: http://spring-cloud-zipkin:8084
@@ -10,7 +10,7 @@ spring:
         # spring-clouda-dmin 监控地址
         url: http://spring-clouda-admin:8087
   redis:
-    host: localhost
+    host: 119.3.252.69
     port: 6379
     lettuce:
       pool:

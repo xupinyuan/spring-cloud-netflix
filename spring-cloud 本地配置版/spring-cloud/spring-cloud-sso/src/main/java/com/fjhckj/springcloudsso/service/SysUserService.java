@@ -15,4 +15,12 @@ public class SysUserService {
     public List<SysUser> findUser(){
         return sysUserMapper.selectAll();
     }
+
+    /**
+     * 根据登录名获取用户
+     * @return
+     */
+    public SysUser getUserByLoginName(SysUser sysUser){
+        return sysUserMapper.getUserByLoginName(sysUser);
+    }
 }

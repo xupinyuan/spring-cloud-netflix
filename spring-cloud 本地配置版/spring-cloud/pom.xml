@@ -19,6 +19,8 @@
         <module>spring-cloud-gateway</module>
         <module>spring-cloud-redis</module>
         <module>spring-cloud-sso</module>
+        <module>spring-cloud-sso-client1</module>
+        <module>spring-cloud-sso-client2</module>
     </modules>
     <!--打包时跳过测试-->
     <build>
