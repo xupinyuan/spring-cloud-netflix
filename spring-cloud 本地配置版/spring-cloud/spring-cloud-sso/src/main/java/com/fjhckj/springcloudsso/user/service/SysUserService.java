@@ -1,7 +1,7 @@
-package com.fjhckj.springcloudsso.service;
+package com.fjhckj.springcloudsso.user.service;
 
-import com.fjhckj.springcloudsso.dao.SysUserMapper;
-import com.fjhckj.springcloudsso.entity.SysUser;
+import com.fjhckj.springcloudsso.user.dao.SysUserMapper;
+import com.fjhckj.springcloudsso.user.entity.SysUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

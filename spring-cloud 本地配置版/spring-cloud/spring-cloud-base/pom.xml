@@ -39,7 +39,12 @@
         <artifactId>spring-boot-admin-starter-client</artifactId>
         <version>${spring-cloud-admin.version}</version>
     </dependency>
-
+    <!--feign Begin-->
+    <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-openfeign</artifactId>
+    </dependency>
+    <!--feign End-->
 
     <!-- config获取不到配置时自动重试 begin-->
     <dependency>
@@ -51,5 +56,10 @@
         <artifactId>spring-boot-starter-aop</artifactId>
     </dependency>
     <!-- config获取不到配置时自动重试 end-->
+    <dependency>
+        <groupId>com.alibaba</groupId>
+        <artifactId>fastjson</artifactId>
+        <version>${fastjson.version}</version>
+    </dependency>
     </dependencies>
 </project>

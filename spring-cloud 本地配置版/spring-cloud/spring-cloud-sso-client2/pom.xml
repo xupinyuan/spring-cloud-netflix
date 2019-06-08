@@ -21,7 +21,7 @@
         </dependency>
         <dependency>
             <groupId>com.fjhckj</groupId>
-            <artifactId>spring-cloud-base</artifactId>
+            <artifactId>spring-cloud-common-web</artifactId>
             <version>${my.version}</version>
         </dependency>
         <dependency>

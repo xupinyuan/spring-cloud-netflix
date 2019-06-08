@@ -31,12 +31,7 @@
             <artifactId>spring-cloud-starter-netflix-hystrix-dashboard</artifactId>
         </dependency>
         <!-- 熔断监控 end -->
-        <!--feign Begin-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-openfeign</artifactId>
-        </dependency>
-        <!--feign End-->
+
         <dependency>
             <groupId>com.fjhckj</groupId>
             <artifactId>spring-cloud-base</artifactId>

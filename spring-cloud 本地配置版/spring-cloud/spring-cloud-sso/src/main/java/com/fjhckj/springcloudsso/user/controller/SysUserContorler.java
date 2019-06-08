@@ -1,7 +1,7 @@
-package com.fjhckj.springcloudsso.controller;
+package com.fjhckj.springcloudsso.user.controller;
 
-import com.fjhckj.springcloudsso.entity.SysUser;
-import com.fjhckj.springcloudsso.service.SysUserService;
+import com.fjhckj.springcloudsso.user.entity.SysUser;
+import com.fjhckj.springcloudsso.user.service.SysUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestBody;

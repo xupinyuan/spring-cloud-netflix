@@ -1,16 +1,11 @@
-package com.fjhckj.springcloudsso.entity;
+package com.fjhckj.springcloudcommonservice.entity;
 
-import javax.persistence.*;
+import java.io.Serializable;
 
-@Table(name = "spring_cloud.sys_user")
-public class SysUser {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+public class SysUser implements Serializable {
+    private static final long serialVersionUID = 0L;
     private String id;
-
-    @Column(name = "user_name")
     private String userName;
-
     private String password;
 
     /**

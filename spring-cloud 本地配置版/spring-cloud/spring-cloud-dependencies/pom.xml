@@ -32,6 +32,7 @@
         <my.version>1.0.0-SNAPSHOT</my.version>
         <pageHelper.version>1.2.5</pageHelper.version>
         <mysql.version>5.1.47</mysql.version>
+        <fastjson.version>1.2.41</fastjson.version>
     </properties>
 
     <dependencyManagement>

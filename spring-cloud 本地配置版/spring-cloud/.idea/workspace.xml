@@ -2,9 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63d6ac1e-02d0-4616-876b-7b17b1935c4c" name="Default Changelist" comment="redis">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_41.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-common-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-common-web/spring-cloud-common-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-common-web/spring-cloud-common-web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-common-web/src/main/java/com/fjhckj/springcloudcommonservice/config/InterceptorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-common-web/src/main/java/com/fjhckj/springcloudcommonservice/entity/SysUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-common-web/src/main/java/com/fjhckj/springcloudcommonservice/interceptor/WebInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-common-web/src/main/java/com/fjhckj/springcloudcommonservice/service/RedisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-common-web/src/main/java/com/fjhckj/springcloudcommonservice/service/hystrix/RedisServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-common-web/src/main/resources/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-common-web/src/test/java/com/fjhckj/springcloudbase/SpringCloudCommonApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-common-web/target/classes/com/fjhckj/springcloudcommonservice/utils/MyMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-common-web/target/classes/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-common-web/target/test-classes/com/fjhckj/springcloudbase/SpringCloudCommonApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-redis/src/main/java/com/fjhckj/springcloudredis/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-redis/src/main/java/com/fjhckj/springcloudredis/entity/SysUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-sso-client1/src/main/java/com/fjhckj/springcloudssoclient1/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-sso-client2/src/main/java/com/fjhckj/springcloudssoclient2/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/login/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/login/service/hystrix/LoginServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config/src/main/resources/bootstrap-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/src/main/resources/bootstrap-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config/src/main/resources/bootstrap-pro.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/src/main/resources/bootstrap-pro.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-admin/spring-cloud-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-admin/spring-cloud-admin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-base/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-base/spring-cloud-base.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-base/spring-cloud-base.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-base/src/main/java/com/fjhckj/springcloudbase/utils/MapperUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-base/src/main/java/com/fjhckj/springcloudbase/utils/MapperUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-common-service/spring-cloud-common-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-common-service/spring-cloud-common-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-config/spring-cloud-config.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/spring-cloud-config.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-config/src/main/resources/configs/ssoApplication-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/src/main/resources/configs/ssoApplication-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-config/src/main/resources/configs/ssoApplication-pro.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/src/main/resources/configs/ssoApplication-pro.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-dependencies/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-dependencies/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-feign/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-feign/spring-cloud-feign.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-feign/spring-cloud-feign.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway/spring-cloud-gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-gateway/spring-cloud-gateway.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-gateway/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-redis/spring-cloud-redis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-redis/spring-cloud-redis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-redis/src/main/java/com/fjhckj/springcloudredis/controller/RedisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-redis/src/main/java/com/fjhckj/springcloudredis/controller/RedisController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-service/spring-cloud-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-service/spring-cloud-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-sso-client1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sso-client1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-sso-client1/spring-cloud-sso-client1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sso-client1/spring-cloud-sso-client1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-sso-client1/src/main/java/com/fjhckj/springcloudssoclient1/SpringCloudSsoClient1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sso-client1/src/main/java/com/fjhckj/springcloudssoclient1/SpringCloudSsoClient1Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-sso-client2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sso-client2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-sso-client2/spring-cloud-sso-client2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sso-client2/spring-cloud-sso-client2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-sso-client2/src/main/java/com/fjhckj/springcloudssoclient2/SpringCloudSsoClient2Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sso-client2/src/main/java/com/fjhckj/springcloudssoclient2/SpringCloudSsoClient2Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-sso/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sso/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-sso/spring-cloud-sso.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sso/spring-cloud-sso.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/SpringCloudSsoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/SpringCloudSsoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/controller/LoginContorller.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/login/controller/LoginContorller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/controller/SysUserContorler.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/user/controller/SysUserContorler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/dao/SysUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/user/dao/SysUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/entity/SysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/user/entity/SysUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/service/SysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/user/service/SysUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-sso/src/main/resources/generator/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sso/src/main/resources/generator/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-sso/src/main/resources/mapper/SysUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sso/src/main/resources/mapper/SysUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-zipkin/spring-cloud-zipkin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-zipkin/spring-cloud-zipkin.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/spring-cloud-dependencies/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-eureka/target/" />
@@ -22,6 +78,9 @@
     <ignored path="$PROJECT_DIR$/spring-cloud-common/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-base/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-common-service/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-sso-client1/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-sso-client2/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-common-web/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,28 +270,54 @@
     <session id="-2112906801">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.46" value="1" />
+          <entry key="project.open.time.50" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="yml" value="3" />
+          <entry key="RedisTemplate" value="1" />
+          <entry key="class" value="25" />
+          <entry key="iml" value="2" />
+          <entry key="java" value="134" />
+          <entry key="properties" value="1" />
+          <entry key="redis" value="1" />
+          <entry key="xml" value="28" />
+          <entry key="yml" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="YAML" value="3" />
+          <entry key="CLASS" value="25" />
+          <entry key="IDEA_MODULE" value="2" />
+          <entry key="JAVA" value="134" />
+          <entry key="Properties" value="1" />
+          <entry key="UML" value="2" />
+          <entry key="XML" value="28" />
+          <entry key="YAML" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="yml" value="27" />
+          <entry key="dummy" value="15" />
+          <entry key="java" value="3790" />
+          <entry key="xml" value="269" />
+          <entry key="yml" value="114" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="YAML" value="27" />
+          <entry key="JAVA" value="3790" />
+          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="SQL" value="19" />
+          <entry key="XML" value="250" />
+          <entry key="YAML" value="114" />
         </counts>
       </usages-collector>
     </session>
@@ -243,101 +328,103 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/controller/SysUserContorler.java">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-redis/src/main/java/com/fjhckj/springcloudredis/controller/RedisController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+            <state relative-caret-position="367">
+              <caret line="27" column="87" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="87" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#874#875#0" expanded="true" />
-                <element signature="e#922#923#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/bootstrap.yml">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-base/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-common-web/src/main/java/com/fjhckj/springcloudcommonservice/config/InterceptorConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-common-web/src/main/java/com/fjhckj/springcloudcommonservice/interceptor/WebInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="67" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-redis/src/main/java/com/fjhckj/springcloudredis/entity/SysUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-redis/src/main/java/com/fjhckj/springcloudredis/config/RedisConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="22" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/login/controller/LoginContorller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="767">
+              <caret line="44" column="76" lean-forward="true" selection-start-line="44" selection-start-column="76" selection-end-line="44" selection-end-column="76" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/configs/ssoApplication-dev.yml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/bootstrap-dev.yml">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/configs/redisApplication-dev.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="36" column="26" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="36" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/bootstrap-pro.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state>
+              <caret selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/dao/SysUserMapper.java">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-redis/src/main/java/com/fjhckj/springcloudredis/SpringCloudRedisApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/service/SysUserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
-                <element signature="e#459#460#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-sso/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/entity/SysUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-sso/src/main/resources/mapper/SysUserMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-sso/src/main/resources/jdbc.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -370,7 +457,15 @@
       <find>result</find>
       <find>application</find>
       <find>MyMapper</find>
+      <find>Serializable</find>
+      <find>fastjson</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>F:\github\spring-cloud-netflix\spring-cloud 本地配置版\spring-cloud\spring-cloud-sso\src\main\java\com\fjhckj\springcloudsso\controller</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -378,57 +473,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-cloud-redis/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/spring-cloud-redis/src/main/java/com/fjhckj/springcloudredis/SpringCloudRedisApplication.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-config/src/main/resources/configs/zipkinApplication-dev.yml" />
-        <option value="$PROJECT_DIR$/spring-cloud-config/src/main/resources/configs/serviceApplication-dev.yml" />
-        <option value="$PROJECT_DIR$/spring-cloud-config/src/main/resources/configs/feignApplication-dev.yml" />
-        <option value="$PROJECT_DIR$/spring-cloud-redis/src/main/java/com/fjhckj/springcloudredis/service/RedisService.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-redis/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/spring-cloud-admin/docker/Dockerfile" />
-        <option value="$PROJECT_DIR$/spring-cloud-config/src/main/resources/configs/adminApplication-dev.yml" />
-        <option value="$PROJECT_DIR$/spring-cloud-redis/src/main/java/com/fjhckj/springcloudredis/controller/RedisController.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-config/src/main/resources/configs/redisApplication-dev.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-sso-client2/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-sso/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/spring-cloud-sso/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/spring-cloud-common/src/main/java/com/fjhckj/springcloudcommon/utils/MyMapper.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-dependencies/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/mapper/SysUserMapper.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-sso/src/main/resources/ssoApplication-dev.yml" />
-        <option value="$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/controller/SysUserContorllse.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/SpringCloudSsonApplication.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-sso/src/test/java/com/fjhckj/springcloudsso/MyBatisTests.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/SpringCloudSsoApplication.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-config/src/main/resources/configs/eurekaApplication-dev.yml" />
-        <option value="$PROJECT_DIR$/spring-cloud-config/src/main/resources/configs/eurekaApplication-pro.yml" />
-        <option value="$PROJECT_DIR$/spring-cloud-sso/src/main/resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/spring-cloud-sso/src/main/resources/mapper/SysUserMapper.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-base/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-common/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-common-service/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-eureka/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-feign/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-gateway/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-zipkin/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-sso/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-service/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-redis/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-admin/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-config/src/main/resources/configs/ssoApplication-dev.yml" />
-        <option value="$PROJECT_DIR$/spring-cloud-config/src/main/resources/configs/ssoApplication-pro.yml" />
-        <option value="$PROJECT_DIR$/spring-cloud-base/src/main/java/com/fjhckj/springcloudbase/utils/CookieUtils.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-base/src/main/java/com/fjhckj/springcloudbase/utils/MapperUtils.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-base/src/main/java/com/fjhckj/springcloudbase/utils/RegexpUtils.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-common-service/src/main/java/com/fjhckj/springcloudcommonservice/MyMapper.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-common-service/src/main/java/com/fjhckj/springcloudcommonservice/utils/MyMapper.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/dao/SysUserMapper.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/entity/SysUser.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-sso/src/main/resources/generator/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-sso-client1/src/main/java/com/fjhckj/springcloudssoclient1/config/InterceptorConfig.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-base/src/main/java/com/fjhckj/springcloudbase/interceptor/PrivilegeInterceptor.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/controller/LoginContorller.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/login/service/SysUserService.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/login/controller/SysUserContorler.java" />
         <option value="$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/service/SysUserService.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/controller/SysUserContorler.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-config/src/main/resources/bootstrap-dev.yml" />
-        <option value="$PROJECT_DIR$/spring-cloud-config/src/main/resources/bootstrap-pro.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/user/service/SysUserService.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sso/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/login/service/loginService.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/login/service/hystrix/loginServiceImp.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/user/controller/SysUserContorler.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/user/dao/SysUserMapper.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/login/service/LoginService.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/login/service/hystrix/LoginServiceImp.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/SpringCloudSsoApplication.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sso-client1/src/main/java/com/fjhckj/springcloudssoclient1/service/redisService.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sso-client1/src/main/java/com/fjhckj/springcloudssoclient1/service/RedisService.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sso-client2/src/main/java/com/fjhckj/springcloudssoclient2/interceptor/PrivilegeInterceptor.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sso-client2/src/main/java/com/fjhckj/springcloudssoclient2/config/InterceptorConfig.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sso-client1/src/main/java/com/fjhckj/springcloudssoclient1/service/hystrix/LoginServiceImp.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sso-client1/src/main/java/com/fjhckj/springcloudssoclient1/interceptor/PrivilegeInterceptor.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-common-web/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-sso-client1/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-sso-client2/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-common-web/src/main/java/com/fjhckj/springcloudcommonservice/interceptor/PrivilegeInterceptor.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/login/controller/LoginContorller1.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway/src/main/java/com/fjhckj/springcloudgateway/filter/MyGlobalFilter.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sso-client2/src/main/java/com/fjhckj/springcloudssoclient2/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sso-client1/src/main/java/com/fjhckj/springcloudssoclient1/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-common-web/src/main/java/com/fjhckj/springcloudcommonservice/service/hystrix/LoginServiceImp.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-common-web/src/main/java/com/fjhckj/springcloudcommonservice/service/AttestationService.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-common-web/src/main/java/com/fjhckj/springcloudcommonservice/service/hystrix/AttestationServiceImp.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/user/entity/SysUser.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-common-web/src/main/java/com/fjhckj/springcloudcommonservice/config/InterceptorConfig.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-common-web/src/main/java/com/fjhckj/springcloudcommonservice/entity/SysUser.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-common-web/src/main/java/com/fjhckj/springcloudcommonservice/service/hystrix/RedisServiceImp.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-common-web/src/main/java/com/fjhckj/springcloudcommonservice/service/RedisService.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-common-web/src/main/java/com/fjhckj/springcloudcommonservice/interceptor/WebInterceptor.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sso-client1/src/main/java/com/fjhckj/springcloudssoclient1/SpringCloudSsoClient1Application.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sso-client2/src/main/java/com/fjhckj/springcloudssoclient2/SpringCloudSsoClient2Application.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-base/src/main/java/com/fjhckj/springcloudbase/utils/MapperUtils.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-dependencies/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-base/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-redis/src/main/java/com/fjhckj/springcloudredis/entity/SysUser.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-redis/src/main/java/com/fjhckj/springcloudredis/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/login/controller/LoginContorller.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-redis/src/main/java/com/fjhckj/springcloudredis/controller/RedisController.java" />
       </list>
     </option>
   </component>
@@ -443,23 +538,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spring-cloud-sso" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spring-cloud-sso" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spring-cloud-sso" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="mybatis-generator" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -497,9 +576,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -510,38 +588,118 @@
             <path>
               <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-config" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-common-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-config" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-common-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-config" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-common-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-common-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-common-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloudcommonservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-common-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloudcommonservice" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-common-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloudcommonservice" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-common-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloudcommonservice" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-sso-client1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-sso-client1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-sso-client1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-config" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-sso-client1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-zipkin" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-sso-client1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloudssoclient1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-sso-client1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloudssoclient1" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -551,8 +709,8 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559383071779" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559999073811" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-cloud-common-web/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -561,19 +719,25 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\git\spring-cloud\spring-cloud 本地配置版\spring-cloud\spring-cloud-base" />
-      <recent name="F:\git\spring-cloud\spring-cloud 本地配置版\spring-cloud" />
-      <recent name="F:\git\spring-cloud\spring-cloud 本地配置版\spring-cloud\spring-cloud-sso\src\main\resources" />
-      <recent name="F:\git\spring-cloud\spring-cloud 本地配置版\spring-cloud\spring-cloud-config\src\main\resources\configs" />
-      <recent name="F:\git\spring-cloud\spring-cloud 本地配置版\spring-cloud\spring-cloud-admin\docker" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.fjhckj.springcloudconfig" />
-      <recent name="com.fjhckj.springcloudservice.controller" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\java\work\spring-cloud\spring-cloud-config\src\main\java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.fjhckj.springcloudssoclient1" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.fjhckj.springcloudredis.entity" />
+      <recent name="com.fjhckj.springcloudcommonservice.entity" />
+      <recent name="com.fjhckj.springcloudcommonservice.service.hystrix" />
+      <recent name="com.fjhckj.springcloudssoclient2.controller" />
+      <recent name="com.fjhckj.springcloudsso.login.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\github\spring-cloud-netflix\spring-cloud 本地配置版\spring-cloud" />
+      <recent name="F:\github\spring-cloud-netflix\spring-cloud 本地配置版\spring-cloud\spring-cloud-sso\src\main\java\com\fjhckj\springcloudsso\user" />
+      <recent name="F:\github\spring-cloud-netflix\spring-cloud 本地配置版\spring-cloud\spring-cloud-sso\src\main\java\com\fjhckj\springcloudsso\login" />
+      <recent name="F:\github\spring-cloud-netflix\spring-cloud 本地配置版\spring-cloud\spring-cloud-config\src\main\resources\configs" />
+      <recent name="F:\git\spring-cloud\spring-cloud 本地配置版\spring-cloud\spring-cloud-base" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -592,9 +756,9 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.4185022" />
+    <option name="contentProportion" value="0.3030303" />
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringCloudSsoApplication">
+  <component name="RunManager" selected="Spring Boot.SpringCloudSsoClient2Application">
     <configuration name="MyBatisTests.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-cloud-sso" />
       <extension name="coverage">
@@ -685,6 +849,29 @@
     <configuration name="SpringCloudSsoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-cloud-sso" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.fjhckj.springcloudsso.SpringCloudSsoApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudSsoClient1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-sso-client1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fjhckj.springcloudssoclient1.SpringCloudSsoClient1Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudSsoClient2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-sso-client2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fjhckj.springcloudssoclient2.SpringCloudSsoClient2Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -708,8 +895,10 @@
       <item itemvalue="Spring Boot.SpringCloudAdminApplication" />
       <item itemvalue="Spring Boot.SpringCloudRedisApplication" />
       <item itemvalue="Spring Boot.SpringCloudSsoApplication" />
-      <item itemvalue="Spring Boot.SpringCloudEurekaApplication" />
+      <item itemvalue="Spring Boot.SpringCloudSsoClient1Application" />
+      <item itemvalue="Spring Boot.SpringCloudSsoClient2Application" />
       <item itemvalue="JUnit.MyBatisTests.testInsert" />
+      <item itemvalue="Spring Boot.SpringCloudEurekaApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -753,7 +942,13 @@
       <workItem from="1559361126841" duration="2330000" />
       <workItem from="1559367576296" duration="2478000" />
       <workItem from="1559371749573" duration="1500000" />
-      <workItem from="1559382370192" duration="692000" />
+      <workItem from="1559382370192" duration="741000" />
+      <workItem from="1559386956256" duration="1206000" />
+      <workItem from="1559569225068" duration="4338000" />
+      <workItem from="1559655616377" duration="3985000" />
+      <workItem from="1559825648670" duration="20699000" />
+      <workItem from="1559912192277" duration="404000" />
+      <workItem from="1559915680107" duration="30395000" />
     </task>
     <task id="LOCAL-00001" summary="redis">
       <created>1558788409571</created>
@@ -811,7 +1006,21 @@
       <option name="project" value="LOCAL" />
       <updated>1559233257501</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="redis">
+      <created>1559383097213</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1559383097214</updated>
+    </task>
+    <task id="LOCAL-00010" summary="redis">
+      <created>1559662995357</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1559662995358</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -829,13 +1038,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154977000" />
+    <option name="totallyTimeSpent" value="216053000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4961998" visible="true" weight="0.16044776" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49671054" visible="true" weight="0.30063966" />
       <window_info id="Structure" order="1" sideWeight="0.5038002" side_tool="true" weight="0.29904053" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -843,7 +1052,7 @@
       <window_info id="Favorites" order="5" sideWeight="0.50323623" side_tool="true" weight="0.2707889" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" sideWeight="0.5032538" side_tool="true" weight="0.2707889" />
-      <window_info id="JRebel" order="8" side_tool="true" />
+      <window_info id="JRebel" order="8" sideWeight="0.50328946" side_tool="true" weight="0.3944563" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
@@ -854,11 +1063,11 @@
       <window_info anchor="bottom" id="Spring" order="7" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50159913" side_tool="true" weight="0.27578717" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.26384366" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32899022" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.69815415" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49840087" weight="0.2790445" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49840087" visible="true" weight="0.3615635" />
       <window_info anchor="bottom" id="Problems" order="15" weight="0.32899022" />
       <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
       <window_info anchor="bottom" id="JRebel Executor" order="17" />
@@ -940,56 +1149,350 @@
           <properties />
           <option name="timeStamp" value="141" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-cloud-redis/src/main/java/com/fjhckj/springcloudredis/controller/RedisController.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.0.1/mapper-base-1.0.1.jar!/tk/mybatis/mapper/common/base/insert/InsertMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.0.1/mapper-base-1.0.1.jar!/tk/mybatis/mapper/common/base/BaseInsertMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="12" column="50" lean-forward="true" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.0.1/mapper-base-1.0.1.jar!/tk/mybatis/mapper/common/BaseMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.0.1/mapper-base-1.0.1.jar!/tk/mybatis/mapper/common/Mapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.0.1/mapper-base-1.0.1.jar!/tk/mybatis/mapper/common/MySqlMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.0.1/mapper-base-1.0.1.jar!/tk/mybatis/mapper/common/base/select/SelectMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-zipkin/src/main/java/com/fjhckj/springcloudzipkin/SpringCloudZipkinApplication.java">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-gateway/src/main/java/com/fjhckj/springcloudgateway/controller/DefaultHystrixController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-gateway/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="37" column="36" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-gateway/src/main/java/com/fjhckj/springcloudgateway/filter/MyGlobalFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="44" column="54" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-base/src/main/java/com/fjhckj/springcloudbase/utils/CookieUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="86" column="11" lean-forward="true" selection-start-line="86" selection-start-column="11" selection-end-line="86" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/java/jdk1.8.0_77/jre/lib/rt.jar!/java/awt/List.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <folding>
+            <element signature="e#0#22163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/java/jdk1.8.0_77/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1710">
+          <folding>
+            <element signature="e#0#33182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/java/jdk1.8.0_77/src.zip!/java/awt/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#67065#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/java/jdk1.8.0_77/src.zip!/java/io/Serializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="719">
+          <caret line="168" column="24" selection-start-line="168" selection-start-column="24" selection-end-line="168" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/16.0/guava-16.0-sources.jar!/com/google/common/collect/EvictingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="719">
+          <caret line="126" selection-start-line="126" selection-end-line="126" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.10.RELEASE/spring-webmvc-5.0.10.RELEASE.jar!/org/springframework/web/servlet/config/annotation/InterceptorRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sso-client1/src/main/java/com/fjhckj/springcloudssoclient1/service/RedisService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sso-client1/src/main/java/com/fjhckj/springcloudssoclient1/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sso/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-common-web/src/main/java/com/fjhckj/springcloudcommonservice/service/hystrix/RedisServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.0.0.RELEASE/spring-cloud-openfeign-core-2.0.0.RELEASE.jar!/org/springframework/cloud/openfeign/EnableFeignClients.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sso-client2/src/main/java/com/fjhckj/springcloudssoclient2/SpringCloudSsoClient2Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.10.RELEASE/spring-webmvc-5.0.10.RELEASE.jar!/org/springframework/web/servlet/HandlerInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.10.RELEASE/spring-webmvc-5.0.10.RELEASE.jar!/org/springframework/web/servlet/HandlerExecutionChain.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/login/service/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/user/entity/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.springframework.data.redis.core.RedisTemplate">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.springframework.data.redis.core.RedisTemplate</OriginalElement>
+          <nodes>
+            <node x="153.5" y="80.0">org.springframework.data.redis.core.RedisOperations</node>
+            <node x="1.5" y="80.0">org.springframework.data.redis.core.RedisAccessor</node>
+            <node x="159.0" y="160.0">org.springframework.data.redis.core.RedisTemplate</node>
+            <node x="368.5" y="0.0">org.springframework.beans.factory.Aware</node>
+            <node x="318.5" y="80.0">org.springframework.beans.factory.BeanClassLoaderAware</node>
+            <node x="0.0" y="0.0">org.springframework.beans.factory.InitializingBean</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework.beans.factory.BeanClassLoaderAware" target="org.springframework.beans.factory.Aware">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.data.redis.core.RedisAccessor" target="org.springframework.beans.factory.InitializingBean">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.data.redis.core.RedisTemplate" target="org.springframework.data.redis.core.RedisOperations">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.data.redis.core.RedisTemplate" target="org.springframework.data.redis.core.RedisAccessor">
+              <point x="-44.66666666666666" y="-15.0" />
+              <point x="181.33333333333334" y="135.0" />
+              <point x="67.5" y="135.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.data.redis.core.RedisTemplate" target="org.springframework.beans.factory.BeanClassLoaderAware">
+              <point x="44.666666666666686" y="-15.0" />
+              <point x="270.6666666666667" y="135.0" />
+              <point x="410.5" y="135.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-164.5" y="57.0" />
+          <SelectedNodes>
+            <node>org.springframework.data.redis.core.RedisTemplate</node>
+            <node>org.springframework.beans.factory.InitializingBean</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JIGSAW/spring.data.redis">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JIGSAW</ID>
+          <OriginalElement>spring.data.redis</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">spring.data.redis</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-351.0" y="-23.0" />
+          <SelectedNodes>
+            <node>spring.data.redis</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.0.11.RELEASE/spring-data-redis-2.0.11.RELEASE.jar!/org/springframework/data/redis/core/StringRedisTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-common-web/src/main/java/com/fjhckj/springcloudcommonservice/entity/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.0.11.RELEASE/spring-data-redis-2.0.11.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="316" column="20" selection-start-line="316" selection-start-column="20" selection-end-line="316" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#12501#12502#0" expanded="true" />
+            <element signature="e#12548#12549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.10.RELEASE/spring-webmvc-5.0.10.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="432" column="19" selection-start-line="432" selection-start-column="19" selection-end-line="432" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/login/service/hystrix/LoginServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/java/jdk1.8.0_77/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1638">
+          <caret line="136" column="11" selection-start-line="136" selection-start-column="11" selection-end-line="136" selection-end-column="11" />
+          <folding>
+            <element signature="e#4677#4678#0" expanded="true" />
+            <element signature="e#4714#4715#0" expanded="true" />
+            <element signature="e#117893#117894#0" expanded="true" />
+            <element signature="e#117955#117956#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.9.7/jackson-core-2.9.7.jar!/com/fasterxml/jackson/core/JsonParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="419" column="24" selection-start-line="419" selection-start-column="24" selection-end-line="419" selection-end-column="24" />
+          <folding>
+            <element signature="e#13184#13185#0" expanded="true" />
+            <element signature="e#13241#13242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/java/jdk1.8.0_77/src.zip!/java/net/URLEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="164" column="25" selection-start-line="164" selection-start-column="25" selection-end-line="164" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-dependencies/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-common-web/src/main/java/com/fjhckj/springcloudcommonservice/service/RedisService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.10.RELEASE/spring-web-5.0.10.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/SpringCloudSsoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1000,210 +1503,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-feign/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-zipkin/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-gateway/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="42" column="25" selection-start-line="37" selection-start-column="11" selection-end-line="42" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-service/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-redis/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-admin/src/test/java/com/fjchkj/springcloudadmin/SpringCloudAdminApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-config/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="34" column="21" selection-start-line="30" selection-start-column="7" selection-end-line="34" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/configs/redisApplication-pro.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/configs/serviceApplication-dev.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-base/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="38" column="52" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-common-service/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="53" column="64" selection-start-line="53" selection-start-column="64" selection-end-line="53" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-admin/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-admin/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-admin/src/main/java/com/fjchkj/springcloudadmin/SpringCloudAdminApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/configs/ssoApplication-pro.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-redis/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-base/src/main/java/com/fjhckj/springcloudcommon/utils/MyMapper.java" />
-    <entry file="file://$PROJECT_DIR$/spring-cloud-base/src/test/java/com/fjhckj/springcloudbase/SpringCloudCommonApplicationTests.java" />
-    <entry file="file://$PROJECT_DIR$/spring-cloud-base/src/main/java/com/fjhckj/springcloudbase/utils/CookieUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-base/src/main/java/com/fjhckj/springcloudbase/utils/RegexpUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-sso/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-base/src/main/java/com/fjhckj/springcloudbase/utils/MapperUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3230">
-          <caret line="181" column="97" selection-start-line="181" selection-start-column="83" selection-end-line="181" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-admin/docker/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="90" selection-start-line="12" selection-start-column="90" selection-end-line="12" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-sso/src/main/resources/generator/generatorConfig.xml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sso-client1/src/main/java/com/fjhckj/springcloudssoclient1/SpringCloudSsoClient1Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-common-service/src/main/java/com/fjhckj/springcloudcommonservice/utils/MyMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.0.1/mapper-base-1.0.1.jar!/tk/mybatis/mapper/common/base/select/SelectAllMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.10.RELEASE/spring-web-5.0.10.RELEASE.jar!/org/springframework/web/bind/annotation/RequestBody.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/configs/ssoApplication-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/SpringCloudSsoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-service/src/main/java/com/fjhckj/springcloudservice/SpringCloudServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1214,83 +1517,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/dao/SysUserMapper.java">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sso-client2/src/main/java/com/fjhckj/springcloudssoclient2/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="209">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/service/SysUserService.java">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-base/src/main/java/com/fjhckj/springcloudbase/utils/MapperUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="544">
+          <caret line="152" column="17" lean-forward="true" selection-start-line="152" selection-start-column="17" selection-end-line="152" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-sso/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.0.11.RELEASE/spring-data-redis-2.0.11.RELEASE.jar!/org/springframework/data/redis/core/ValueOperations.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-redis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="42" column="34" lean-forward="true" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+        </state>
+      </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-base/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+        <state relative-caret-position="418">
+          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/entity/SysUser.java">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-redis/src/main/java/com/fjhckj/springcloudredis/SpringCloudRedisApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-sso/src/main/resources/mapper/SysUserMapper.xml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-redis/src/main/java/com/fjhckj/springcloudredis/entity/SysUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        <state relative-caret-position="57">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-sso/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/controller/SysUserContorler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
-            <element signature="e#922#923#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/bootstrap.yml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/configs/ssoApplication-dev.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/bootstrap-dev.yml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/configs/redisApplication-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="36" column="26" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="36" selection-end-column="26" />
+        <state>
+          <caret selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/bootstrap-pro.yml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-redis/src/main/java/com/fjhckj/springcloudredis/config/RedisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-sso/src/main/java/com/fjhckj/springcloudsso/login/controller/LoginContorller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="767">
+          <caret line="44" column="76" lean-forward="true" selection-start-line="44" selection-start-column="76" selection-end-line="44" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-redis/src/main/java/com/fjhckj/springcloudredis/controller/RedisController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="27" column="87" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-common-web/src/main/java/com/fjhckj/springcloudcommonservice/interceptor/WebInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="67" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-common-web/src/main/java/com/fjhckj/springcloudcommonservice/config/InterceptorConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1311,7 +1648,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring (spring-cloud-sso)|Spring</last-edited>
+          <last-edited>Spring (spring-cloud-config)|Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1346,7 +1683,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>spring-cloud</last-edited>
+          <last-edited>spring-cloud-common-service</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

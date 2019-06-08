@@ -9,6 +9,7 @@
         <module name="spring-cloud-admin" />
         <module name="spring-cloud-base" />
         <module name="spring-cloud-common-service" />
+        <module name="spring-cloud-common-web" />
         <module name="spring-cloud-config" />
         <module name="spring-cloud-eureka" />
         <module name="spring-cloud-feign" />
@@ -16,6 +17,8 @@
         <module name="spring-cloud-redis" />
         <module name="spring-cloud-service" />
         <module name="spring-cloud-sso" />
+        <module name="spring-cloud-sso-client1" />
+        <module name="spring-cloud-sso-client2" />
         <module name="spring-cloud-zipkin" />
       </profile>
     </annotationProcessing>
@@ -25,6 +28,7 @@
       <module name="spring-cloud-base" target="1.8" />
       <module name="spring-cloud-common" target="1.8" />
       <module name="spring-cloud-common-service" target="1.8" />
+      <module name="spring-cloud-common-web" target="1.8" />
       <module name="spring-cloud-config" target="1.8" />
       <module name="spring-cloud-dependencies" target="1.8" />
       <module name="spring-cloud-eureka" target="1.8" />
@@ -33,6 +37,8 @@
       <module name="spring-cloud-redis" target="1.8" />
       <module name="spring-cloud-service" target="1.8" />
       <module name="spring-cloud-sso" target="1.8" />
+      <module name="spring-cloud-sso-client1" target="1.8" />
+      <module name="spring-cloud-sso-client2" target="1.8" />
       <module name="spring-cloud-sson" target="1.8" />
       <module name="spring-cloud-zipkin" target="1.8" />
     </bytecodeTargetLevel>

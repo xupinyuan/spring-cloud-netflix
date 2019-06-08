@@ -24,7 +24,7 @@ spring:
       driver-class-name: com.mysql.jdbc.Driver
 
 mybatis:
-  type-aliases-package: com.fjhckj.springcloudsso.entity
+  type-aliases-package: com.fjhckj.springcloudsso.user.entity
   mapper-locations: classpath:mapper/*.xml
 
 

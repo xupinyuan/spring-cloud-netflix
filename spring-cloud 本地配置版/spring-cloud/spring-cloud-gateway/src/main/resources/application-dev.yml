@@ -29,6 +29,21 @@ spring:
         uri: lb://SPRING-CLOUD-SERVICE
         predicates:
         - Method=GET,POST
+
+      - id: SPRING-CLOUD-SSO
+        uri: lb://SPRING-CLOUD-SSO
+        predicates:
+        - Method=GET,POST
+
+      - id: SPRING-CLOUD-SSO-CLIENT1
+        uri: lb://SPRING-CLOUD-SSO-CLIENT1
+        predicates:
+        - Method=GET,POST
+
+      - id: SPRING-CLOUD-SSO-CLIENT2
+        uri: lb://SPRING-CLOUD-SSO-CLIENT2
+        predicates:
+        - Method=GET,POST
       #全局熔断服务为响应或响应超时触发熔断
       default-filters:
       - name: Hystrix
