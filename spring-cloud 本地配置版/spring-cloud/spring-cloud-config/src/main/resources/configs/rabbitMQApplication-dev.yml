@@ -1,0 +1,40 @@
+spring:
+  application:
+    name: SPRING-CLOUD-RABBITMQ
+  zipkin:
+    # zipkin 监控地址
+    base-url: http://localhost:8084
+  boot:
+    admin:
+      client:
+        # spring-clouda-dmin 监控地址
+        url: http://localhost:8087
+
+  # rabbitMQ 配置
+  rabbitmq:
+    host: 119.3.252.69
+    port: 5672
+    username: rabbit
+    password: 123456
+#端口
+server:
+  port: 8092
+
+eureka:
+  instance:
+    # 注入自身ip到eureka
+    prefer-ip-address: true
+    # 自定义eureka的服务地址显示方式
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8081/eureka/
+#监控检查
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: health,info

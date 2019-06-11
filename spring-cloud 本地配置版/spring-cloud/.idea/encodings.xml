@@ -13,6 +13,8 @@
     <file url="file://$PROJECT_DIR$/spring-cloud-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-gateway/src/main/resources/application.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-rabbitmq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-rabbitmq/src/main/resources/application.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-redis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-sso" charset="UTF-8" />

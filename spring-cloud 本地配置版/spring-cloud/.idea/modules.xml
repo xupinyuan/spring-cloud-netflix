@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-feign/spring-cloud-feign.iml" filepath="$PROJECT_DIR$/spring-cloud-feign/spring-cloud-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-gateway/spring-cloud-gateway.iml" filepath="$PROJECT_DIR$/spring-cloud-gateway/spring-cloud-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-rabbitmq/spring-cloud-rabbitmq.iml" filepath="$PROJECT_DIR$/spring-cloud-rabbitmq/spring-cloud-rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-redis/spring-cloud-redis.iml" filepath="$PROJECT_DIR$/spring-cloud-redis/spring-cloud-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-service/spring-cloud-service.iml" filepath="$PROJECT_DIR$/spring-cloud-service/spring-cloud-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-sso/spring-cloud-sso.iml" filepath="$PROJECT_DIR$/spring-cloud-sso/spring-cloud-sso.iml" />
