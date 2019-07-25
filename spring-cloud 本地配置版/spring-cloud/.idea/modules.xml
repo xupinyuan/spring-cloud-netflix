@@ -15,9 +15,11 @@
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-rabbitmq/spring-cloud-rabbitmq.iml" filepath="$PROJECT_DIR$/spring-cloud-rabbitmq/spring-cloud-rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-redis/spring-cloud-redis.iml" filepath="$PROJECT_DIR$/spring-cloud-redis/spring-cloud-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-service/spring-cloud-service.iml" filepath="$PROJECT_DIR$/spring-cloud-service/spring-cloud-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-solr/spring-cloud-solr.iml" filepath="$PROJECT_DIR$/spring-cloud-solr/spring-cloud-solr.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-sso/spring-cloud-sso.iml" filepath="$PROJECT_DIR$/spring-cloud-sso/spring-cloud-sso.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-sso-client1/spring-cloud-sso-client1.iml" filepath="$PROJECT_DIR$/spring-cloud-sso-client1/spring-cloud-sso-client1.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-sso-client2/spring-cloud-sso-client2.iml" filepath="$PROJECT_DIR$/spring-cloud-sso-client2/spring-cloud-sso-client2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-test/spring-cloud-test.iml" filepath="$PROJECT_DIR$/spring-cloud-test/spring-cloud-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-zipkin/spring-cloud-zipkin.iml" filepath="$PROJECT_DIR$/spring-cloud-zipkin/spring-cloud-zipkin.iml" />
     </modules>
   </component>

@@ -10,6 +10,9 @@ import java.util.Date;
 
 @Component
 public class SendRabbitMQQuartz {
+
+
+
     @Autowired
     private RabbitQMController rabbitQMController;
 

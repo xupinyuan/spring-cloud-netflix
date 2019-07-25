@@ -17,11 +17,14 @@
     <file url="file://$PROJECT_DIR$/spring-cloud-rabbitmq/src/main/resources/application.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-redis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-solr" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-solr/src/main/resources/application.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-sso" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-sso-client1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-sso-client1/src/main/resources/application.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-sso-client2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-sso-client2/src/main/resources/application.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-test" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-zipkin" charset="UTF-8" />
   </component>
 </project>
