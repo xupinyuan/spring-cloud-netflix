@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "test",
+      "type": "com.fjhckj.springcloudtest.config.ConfigurationPerpretis",
+      "sourceType": "com.fjhckj.springcloudtest.config.ConfigurationPerpretis"
+    },
+    {
+      "name": "wx",
+      "type": "com.fjhckj.springcloudtest.utils.wx.WxUtils",
+      "sourceType": "com.fjhckj.springcloudtest.utils.wx.WxUtils"
+    }
+  ],
+  "properties": [
+    {
+      "name": "test.aa",
+      "type": "java.lang.String",
+      "sourceType": "com.fjhckj.springcloudtest.config.ConfigurationPerpretis",
+      "defaultValue": "ll"
+    },
+    {
+      "name": "test.bb",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.fjhckj.springcloudtest.config.ConfigurationPerpretis"
+    }
+  ],
+  "hints": []
+}

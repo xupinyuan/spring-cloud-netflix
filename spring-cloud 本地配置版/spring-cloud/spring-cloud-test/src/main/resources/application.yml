@@ -1,0 +1,19 @@
+server:
+  port: 8088
+
+wx:
+  appid: wxf3163a13b30daf42
+  secret: 68888230a6bc6b2d5eaabceb595f9b33
+
+
+
+test:
+  bb:
+    - 123
+    - 456
+    - 789
+  cc:
+    dd: ff
+    gg: hh
+  aa: 5555
+
